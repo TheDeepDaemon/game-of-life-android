@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_loginTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Game of Life"
+        android:textSize="28sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.084" />
+
+    <EditText
+        android:id="@+id/et_enterName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.855"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_loginTitle"
+        app:layout_constraintVertical_bias="0.143" />
+
+    <EditText
+        android:id="@+id/et_enterPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/et_enterName"
+        app:layout_constraintStart_toStartOf="@id/et_enterName"
+        app:layout_constraintTop_toBottomOf="@id/et_enterName"
+        app:layout_constraintVertical_bias="0.12" />
+
+    <TextView
+        android:id="@+id/tv_enterName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@id/et_enterName"
+        app:layout_constraintEnd_toStartOf="@id/et_enterName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/et_enterName" />
+
+    <TextView
+        android:id="@+id/tv_enterPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password:"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@id/et_enterPass"
+        app:layout_constraintEnd_toEndOf="@+id/tv_enterName"
+        app:layout_constraintStart_toStartOf="@+id/tv_enterName"
+        app:layout_constraintTop_toTopOf="@id/et_enterPass" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/et_enterPass"
+        app:layout_constraintTop_toBottomOf="@id/et_enterPass"
+        app:layout_constraintVertical_bias="0.046" />
+
+    <Button
+        android:id="@+id/btn_createNew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create new Profile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/btn_login"
+        app:layout_constraintTop_toBottomOf="@id/btn_login"
+        app:layout_constraintVertical_bias="0.202" />
+
+    <Button
+        android:id="@+id/btn_updatePassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Update password"
+        app:layout_constraintEnd_toEndOf="@+id/btn_createNew"
+        app:layout_constraintTop_toBottomOf="@+id/btn_createNew" />
+
+    <Button
+        android:id="@+id/btn_deleteProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Delete profile"
+        app:layout_constraintEnd_toEndOf="@+id/btn_updatePassword"
+        app:layout_constraintTop_toBottomOf="@+id/btn_updatePassword" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

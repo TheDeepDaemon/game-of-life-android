@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ehp17/AndroidStudioProjects/GameOfLife/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1715" />
+        <entry key="..\:/Users/ehp17/AndroidStudioProjects/GameOfLife/app/src/main/res/drawable/customborder.xml" value="0.256" />
+        <entry key="..\:/Users/ehp17/AndroidStudioProjects/GameOfLife/app/src/main/res/drawable/grid_border.xml" value="0.11" />
+        <entry key="..\:/Users/ehp17/AndroidStudioProjects/GameOfLife/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1865" />
+        <entry key="..\:/Users/ehp17/AndroidStudioProjects/GameOfLife/app/src/main/res/drawable/loadscreenborder.xml" value="0.11" />
+        <entry key="..\:/Users/ehp17/AndroidStudioProjects/GameOfLife/app/src/main/res/drawable/savedialogueborder.xml" value="0.11" />
+        <entry key="..\:/Users/ehp17/AndroidStudioProjects/GameOfLife/app/src/main/res/layout/activity_login.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/ehp17/AndroidStudioProjects/GameOfLife/app/src/main/res/layout/activity_main.xml" value="0.22146739130434784" />
+        <entry key="..\:/Users/ehp17/AndroidStudioProjects/GameOfLife/app/src/main/res/layout/delete_profile_screen.xml" value="0.268" />
+        <entry key="..\:/Users/ehp17/AndroidStudioProjects/GameOfLife/app/src/main/res/layout/enter_sim_name.xml" value="0.2" />
+        <entry key="..\:/Users/ehp17/AndroidStudioProjects/GameOfLife/app/src/main/res/layout/grid_display.xml" value="0.22146739130434784" />
+        <entry key="..\:/Users/ehp17/AndroidStudioProjects/GameOfLife/app/src/main/res/layout/grid_layout.xml" value="0.22146739130434784" />
+        <entry key="..\:/Users/ehp17/AndroidStudioProjects/GameOfLife/app/src/main/res/layout/load_screen_list_item.xml" value="0.4144736842105263" />
+        <entry key="..\:/Users/ehp17/AndroidStudioProjects/GameOfLife/app/src/main/res/layout/login_screen.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/ehp17/AndroidStudioProjects/GameOfLife/app/src/main/res/layout/main_display.xml" value="0.268" />
+        <entry key="..\:/Users/ehp17/AndroidStudioProjects/GameOfLife/app/src/main/res/layout/main_grid_display.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/ehp17/AndroidStudioProjects/GameOfLife/app/src/main/res/layout/main_grid_layout.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/ehp17/AndroidStudioProjects/GameOfLife/app/src/main/res/layout/new_profile_screen.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/ehp17/AndroidStudioProjects/GameOfLife/app/src/main/res/layout/pattern_list_item.xml" value="0.36" />
+        <entry key="..\:/Users/ehp17/AndroidStudioProjects/GameOfLife/app/src/main/res/layout/save_file_list.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/ehp17/AndroidStudioProjects/GameOfLife/app/src/main/res/layout/save_file_list_item.xml" value="0.2" />
+        <entry key="..\:/Users/ehp17/AndroidStudioProjects/GameOfLife/app/src/main/res/layout/update_password_screen.xml" value="0.22826086956521738" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
